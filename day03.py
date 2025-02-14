@@ -29,3 +29,10 @@ python3 -m venv project_2   # create project in venv
 source project_2/bin/activate  # go to th virtual env to do some work 
 pipx install jira # installing some dependencies
 deactivate # deactivatting the vnv
+
+# Import the entire module
+import math
+
+# Use functions/variables from the module
+result = math.sqrt(16)
+print(result)
